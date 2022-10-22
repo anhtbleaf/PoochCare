@@ -1,0 +1,60 @@
+/* ABOUT HTML */
+.aboutus{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 15px 0;
+}
+.aboutus::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: 0.5;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aboutus h2.title{
+    color: #ffffff;
+    font-weight: 650;
+    font-size: 45px;
+}
+li{
+    list-style-type: none;
+}
+.aboutus .aboutus-nav li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 380;
+    color: #ffffff;
+    position: relative;
+    vertical-align: middle;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #189A46;
+}
+.aboutus .aboutus-nav li span.fa{
+    font-size: 11px;
+    vertical-align: 2px;
+}
+.aboutus-experience .content-info-in{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
