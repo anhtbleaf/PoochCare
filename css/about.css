@@ -1,4 +1,7 @@
 /* ABOUT HTML */
+*{
+    box-sizing: border-box;
+}
 .aboutus{
     background-image: url(https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/banner4.jpg);
     background-position: center;
@@ -46,15 +49,97 @@ li{
 a, a:hover{
     text-decoration: none;
     color: #189A46;
+    cursor: pointer;
 }
 .aboutus .aboutus-nav li span.fa{
     font-size: 11px;
     vertical-align: 2px;
 }
-.aboutus-experience .content-info-in{
+.content-info-in{
     display: flex;
-    flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     align-items: center;
+}
+.about-title{
+    color: #f53626;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.text-title{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 550;
+    line-height: 45px;
+}
+.content-info-in h4{
+    font-size: 22px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: var(--font-color);
+    font-family: 'Jost', sans-serif; 
+}
+a.read{
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid #189A46;
+    color: #000c04 ;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.feature-main{
+    background: url(../img/banner2.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    align-items: center;
+}
+.feature-main::before{
+    content: "";
+    background-color: rgba(0, 4, 8, 0.69);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.feature-content{
+    margin-left: auto;
+    max-width: 640px;
+    text-align: left;
+}
+h3.text-title{
+    color: #ffffff;
+}
+.feature-content p{
+    color: #ffffff;
+    opacity: 0.7;
+}
+.history-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 40px; 
+}
+.history-grids h5.year{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
 }
