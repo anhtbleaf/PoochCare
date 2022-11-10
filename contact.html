@@ -22,12 +22,6 @@
 
   </head>
   <body>
-    <style>
-        * {
-          box-sizing: border-box;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-        }
-        </style>
 
 <!--header-->
 <header >
@@ -198,7 +192,26 @@
         </div>
       </div>
     </footer>
+    <button id="totop" title="Go to top" style="display: block;" onclick="topFunction()">
+      ⤴
+    </button>
+    <script class="">
+      window.onscroll = function () {
+        scrollFunction()
+      };
   
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("totop").style.display = "block";
+        } else {
+          document.getElementById("totop").style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </section>
   
   
