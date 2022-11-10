@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+body img{
+    border-radius: 10px;
+}
+.aboutus{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 15px 0;
+}
+.aboutus::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: 0.5;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aboutus h2.title{
+    color: #ffffff;
+    font-weight: 650;
+    font-size: 45px;
+}
+li{
+    list-style-type: none;
+}
+.aboutus .aboutus-nav li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 380;
+    color: #ffffff;
+    position: relative;
+    vertical-align: middle;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #189A46;
+    cursor: pointer;
+}
+.aboutus .aboutus-nav li span.fa{
+    font-size: 11px;
+    vertical-align: 2px;
+}
+.content-info-in{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
+.about-title{
+    color: #f53626;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.text-title{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 550;
+    line-height: 45px;
+}
+.content-info-in h4{
+    font-size: 22px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+    font-family: 'Jost', sans-serif; 
+}
+a.read{
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid #189A46;
+    color: #000c04 ;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+a.read:hover{
+    color: #189A46;
+}
+body a, button, .btn{
+    cursor: pointer !important;
+}
+a {
+    color: #189A46;
+}
+
+/* Blog Single */
+.blog-single .blog-single1 .text{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+li.design{
+    display: inline-block;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 4px 10px;
+    font-weight: 600;
+    background: #189A46;
+}
+.blog-single .blog-single1 .blog-list{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.blog-single .blog-single1 ul.blog-list li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.blog-single .blog-single1 ul.blog-list p{
+    margin: 0;
+    font-size: 16px;
+}
+.blog-single .blog-single1 ul.blog-list span.fa{
+    color: #000c04;
+}
+.blog-single .blog-single1 .text-bg-image{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.blog-single .blog-single1 p.text2-text{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.blog-single .blog-single1 .single-post-content-1{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.blog-single .blog-single1 p.text2-text2{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+
+}
+.blog-single .blog-single2 blockquote{
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding-left: 45px;
+    background: ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+.blog-single .blog-single2 blockquote q{
+    color: #000c04;
+    font-size: 28px;
+    line-height: 40px;
+}
+.blog-single .blog-single2 .text-styles-top-33 q:before{
+    font-size: 50px;
+    color: #f53626;
+    line-height: 0.8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+.blockquote-footer{
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #000c04;
+    font-weight: 600;
+}
+.blog-single .blog-single3 h4.text-head-text-9 a {
+    font-size: 28px;
+    line-height: 40px;
+    color: #000c04;
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: inline-block;
+}
+.blog-single .blog-single3 h5.sub-head-text-9{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+.blog-single .blog-single3 p.sub-para{
+    margin-top: 20px;
+}
+.social-share-blog ul.social li{
+    display: inline-block;
+    margin: 0;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+.social-share-blog ul.social h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000c04;
+}
+.social-share-blog ul.social li{
+    display: inline-block;
+    margin: 0;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+.social-share-blog ul.social a{
+    margin-left: inherit;
+    color: #9ba0ac;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.social-share-blog ul.social a.facebook span.fa{
+    color: #3b5998;
+}
+.social-share-blog ul.social a.twitter span.fa{
+    color: #1da1f2;
+}
+
+/* Footer */
+.footer .footer-content{
+    background: #111111 ;
+}
+.footer h6.footer-title{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.footer .footer-list ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+b, strong{
+    font-weight: bolder;
+}
+.footer .footer-list ul li p, .footer .footer-list ul li a{
+    color:#696969 ;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+}
+body a{
+    cursor: pointer;
+}
+.footer ul.footer-icon{
+    list-style: none;
+    overflow: hidden;
+    margin-top: 3px;
+    padding: 0;
+}
+.footer ul.footer-icon li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.mid-footer-content{
+    border-top: 1px solid rgba(103,99,99,0.14)
+}
+.copy-footer-content a{
+    color: #f53626;
+    opacity: 0.9;
+}
+.footer .footer-list ul li a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.footer #totop{
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    background: #189A46;
+    padding: 0;
+    line-height: 36px;
+    border-radius: 50px;
+    transition: 0.3s ease-out;
+}
